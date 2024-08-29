@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* ==============================================FLOOR CSS============================================== */
+.container{
+    width: 60%;
+    height: 100vh;
+    margin-bottom: 20px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.floor{
+    display: flex;
+    flex-direction: row;
+    height: 123px;
+    border-bottom: 3px solid black;
+    padding-top: 10px;
+}
+
+
+/* ==============================================LIFT CSS============================================== */
+
+.lift{
+    padding: 2px;
+    height: 70px;
+    width: 60px;
+    margin: 3px 3px 0px 3px;
+    transform: translateY(0px);
+    background-color: #00A2FF
+}
+
+.lift.ended {
+    opacity: 0;
+}
+
+.lift-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+/* ==============================================BUTTON CSS============================================== */
+
+button {
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 5px;
+    min-height: 30px; 
+    min-width: 80px;
+}
+
+.up-btn {
+    background-color: #01B202;
+}
+
+.down-btn {
+    background-color: #F8BA00;
+}
+
+.btn-container {
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
