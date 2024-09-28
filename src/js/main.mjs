@@ -13,4 +13,4 @@ document.getElementById("create").addEventListener("click", () => {
 
 // This is the main runner function which runs handleRerender
 // in every 1s
-setInterval(async () => {handleRerender()}, 1000)
+setInterval(async() => { handleRerender() }, 3000)
